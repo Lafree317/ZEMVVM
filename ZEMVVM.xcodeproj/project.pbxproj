@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526C3EA51CEF14FA0084708E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C3EA41CEF14FA0084708E /* AppDelegate.swift */; };
+		526C3EAA1CEF14FA0084708E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526C3EA81CEF14FA0084708E /* Main.storyboard */; };
+		526C3EAC1CEF14FA0084708E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526C3EAB1CEF14FA0084708E /* Assets.xcassets */; };
+		526C3EAF1CEF14FA0084708E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526C3EAD1CEF14FA0084708E /* LaunchScreen.storyboard */; };
+		526C3EBC1CEF153A0084708E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C3EBB1CEF153A0084708E /* ViewController.swift */; };
+		526C3EBE1CEF15600084708E /* ZETableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C3EBD1CEF15600084708E /* ZETableViewModel.swift */; };
+		526C3EC01CEF15650084708E /* ZEVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C3EBF1CEF15650084708E /* ZEVCModel.swift */; };
+		526C3EC21CEF15900084708E /* ZESomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C3EC11CEF15900084708E /* ZESomeData.swift */; };
+		526C3EC51CEF19100084708E /* ZECell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C3EC31CEF19100084708E /* ZECell.swift */; };
+		526C3EC61CEF19100084708E /* ZECell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526C3EC41CEF19100084708E /* ZECell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		526C3EA11CEF14FA0084708E /* ZEMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZEMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526C3EA41CEF14FA0084708E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		526C3EA91CEF14FA0084708E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		526C3EAB1CEF14FA0084708E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		526C3EAE1CEF14FA0084708E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		526C3EB01CEF14FA0084708E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526C3EBB1CEF153A0084708E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		526C3EBD1CEF15600084708E /* ZETableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZETableViewModel.swift; sourceTree = "<group>"; };
+		526C3EBF1CEF15650084708E /* ZEVCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZEVCModel.swift; sourceTree = "<group>"; };
+		526C3EC11CEF15900084708E /* ZESomeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZESomeData.swift; sourceTree = "<group>"; };
+		526C3EC31CEF19100084708E /* ZECell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZECell.swift; sourceTree = "<group>"; };
+		526C3EC41CEF19100084708E /* ZECell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZECell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526C3E9E1CEF14FA0084708E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526C3E981CEF14FA0084708E = {
+			isa = PBXGroup;
+			children = (
+				526C3EA31CEF14FA0084708E /* ZEMVVM */,
+				526C3EA21CEF14FA0084708E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		526C3EA21CEF14FA0084708E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526C3EA11CEF14FA0084708E /* ZEMVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526C3EA31CEF14FA0084708E /* ZEMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				526C3EB61CEF15220084708E /* ZEMVVM */,
+				526C3EA41CEF14FA0084708E /* AppDelegate.swift */,
+				526C3EA81CEF14FA0084708E /* Main.storyboard */,
+				526C3EAB1CEF14FA0084708E /* Assets.xcassets */,
+				526C3EAD1CEF14FA0084708E /* LaunchScreen.storyboard */,
+				526C3EB01CEF14FA0084708E /* Info.plist */,
+			);
+			path = ZEMVVM;
+			sourceTree = "<group>";
+		};
+		526C3EB61CEF15220084708E /* ZEMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				526C3EB71CEF15220084708E /* Controller */,
+				526C3EB81CEF15220084708E /* Model */,
+				526C3EB91CEF15220084708E /* View */,
+				526C3EBA1CEF15220084708E /* ViewModel */,
+			);
+			path = ZEMVVM;
+			sourceTree = "<group>";
+		};
+		526C3EB71CEF15220084708E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				526C3EBB1CEF153A0084708E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		526C3EB81CEF15220084708E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				526C3EBF1CEF15650084708E /* ZEVCModel.swift */,
+				526C3EC11CEF15900084708E /* ZESomeData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		526C3EB91CEF15220084708E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				526C3EC31CEF19100084708E /* ZECell.swift */,
+				526C3EC41CEF19100084708E /* ZECell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		526C3EBA1CEF15220084708E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				526C3EBD1CEF15600084708E /* ZETableViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526C3EA01CEF14FA0084708E /* ZEMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526C3EB31CEF14FA0084708E /* Build configuration list for PBXNativeTarget "ZEMVVM" */;
+			buildPhases = (
+				526C3E9D1CEF14FA0084708E /* Sources */,
+				526C3E9E1CEF14FA0084708E /* Frameworks */,
+				526C3E9F1CEF14FA0084708E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZEMVVM;
+			productName = ZEMVVM;
+			productReference = 526C3EA11CEF14FA0084708E /* ZEMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526C3E991CEF14FA0084708E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "胡春源";
+				TargetAttributes = {
+					526C3EA01CEF14FA0084708E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 526C3E9C1CEF14FA0084708E /* Build configuration list for PBXProject "ZEMVVM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526C3E981CEF14FA0084708E;
+			productRefGroup = 526C3EA21CEF14FA0084708E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526C3EA01CEF14FA0084708E /* ZEMVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526C3E9F1CEF14FA0084708E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526C3EAF1CEF14FA0084708E /* LaunchScreen.storyboard in Resources */,
+				526C3EAC1CEF14FA0084708E /* Assets.xcassets in Resources */,
+				526C3EC61CEF19100084708E /* ZECell.xib in Resources */,
+				526C3EAA1CEF14FA0084708E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526C3E9D1CEF14FA0084708E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526C3EBC1CEF153A0084708E /* ViewController.swift in Sources */,
+				526C3EC01CEF15650084708E /* ZEVCModel.swift in Sources */,
+				526C3EC51CEF19100084708E /* ZECell.swift in Sources */,
+				526C3EBE1CEF15600084708E /* ZETableViewModel.swift in Sources */,
+				526C3EA51CEF14FA0084708E /* AppDelegate.swift in Sources */,
+				526C3EC21CEF15900084708E /* ZESomeData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		526C3EA81CEF14FA0084708E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526C3EA91CEF14FA0084708E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		526C3EAD1CEF14FA0084708E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526C3EAE1CEF14FA0084708E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		526C3EB11CEF14FA0084708E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		526C3EB21CEF14FA0084708E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526C3EB41CEF14FA0084708E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZEMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lafree.www.ZEMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		526C3EB51CEF14FA0084708E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZEMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lafree.www.ZEMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526C3E9C1CEF14FA0084708E /* Build configuration list for PBXProject "ZEMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526C3EB11CEF14FA0084708E /* Debug */,
+				526C3EB21CEF14FA0084708E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526C3EB31CEF14FA0084708E /* Build configuration list for PBXNativeTarget "ZEMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526C3EB41CEF14FA0084708E /* Debug */,
+				526C3EB51CEF14FA0084708E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 526C3E991CEF14FA0084708E /* Project object */;
+}
