@@ -46,6 +46,7 @@
             <connections>
                 <outlet property="bigTitleLabel" destination="2Hc-Ba-Ah6" id="G8n-cq-6hL"/>
                 <outlet property="contextLabel" destination="rs6-xC-Iyh" id="aro-6P-bXK"/>
+                <outlet property="labelButtomConstaranits" destination="NeL-iR-wmK" id="Y6R-n4-8iF"/>
             </connections>
             <point key="canvasLocation" x="202" y="511"/>
         </tableViewCell>
