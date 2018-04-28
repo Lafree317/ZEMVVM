@@ -2,8 +2,8 @@
 >在OC中成熟的框架已经有很多了,但是Swift一直找不到..可能是我检索能力不强,希望大家能推荐给我,我只在viewModel中抽象了几个常用的方法,如果需要可以自己在里面扩展
 文章里还讲了一点AutoLayout计算cell高度的方法
 
-#上代码
-####ViewModel
+# 上代码
+#### ViewModel
 >主要是把tableView的Delegate和DataSource拆分出来,把tableView搭建界面时执行的方法抽象出来,利用Block让ViewController可以生成cell,和处理点击事件
 
 ```
@@ -55,7 +55,7 @@ class ZETableViewModel: NSObject,UITableViewDelegate,UITableViewDataSource {
 }
 ```
 
-####Model
+#### Model
 >我一般喜欢把model当做controller的垃圾桶,把所有非View方法都封装到model中,这里写了一个模拟网络请求的方法
 
 ```
@@ -85,7 +85,7 @@ class ZEVCModel: NSObject {
 }
 ```
 
-####View
+#### View
 ![](http://upload-images.jianshu.io/upload_images/1298596-9566a33fee6a1c19.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 >这里仅用一个Cell来表示View,可以讲一下通过AutoLayout自动计算cell高度的方法,就是所有控件都给好高度,需要变换高度的给一个带优先级的高度约束,然后在tableview中这样设置(已demo为例),一定要有预估高度和UITableViewAutomaticDimension
 
@@ -107,7 +107,7 @@ class ZEVCModel: NSObject {
 ![详情Label的高度>=20,优先级为1000](http://upload-images.jianshu.io/upload_images/1298596-9290a73c783fdc1a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-####Controller
+#### Controller
 >controller中只用关注,model什么时候获取数据,cell该给什么样子的,点击时怎么处理就好了
 
 ```
